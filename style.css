@@ -1,0 +1,10 @@
+/*style.css*/
+
+* {
+    background-color: hsl(335, 65%, 70%);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bold {
+    font-weight: bold;
+}
