@@ -1,0 +1,26 @@
+/* style.css */
+
+h1, h2, p, li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+.header {
+    text-align: center;
+
+}
+
+.steps {
+    color: blue;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#violet {
+    font-size: larger;
+    color: blueviolet;
+    font-style: italic;
+}
+
+.steps.green {
+    color: green;
+}
