@@ -1,11 +1,44 @@
 /*style.css*/
 
-* {
-    background-color: hsl(335, 65%, 70%);
+body{
+    font: 'Courier New', Courier, monospace 20px;
+    box-sizing: border-box;
+    
+}
+h1 {
+    text-align: center;
+    background-color: rgb(131, 157, 167);
+    color: white;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 42px;
+    width: 70%;
+    height: 60px;
+    margin: auto;
+    padding: 40px;
+    text-shadow: 2px 2px black;
+    
+}  
+header p {
+    font: 20px "Helvetica" , Courier bold;
+    text-align: center;
+    width: 100%;
+    margin: 5px 10px 20px;
+    
 }
 
-.bold .fontsize {
-    font-weight: bold;
-    font-size: 100px;
+.recipes li{
+    text-align: left;
+    font-size: 21px;
+    list-style-position: inside;
+    margin-left: 10%;
+    margin-top: 15px;
+    list-style-image: url("image/hoip1.ico");
+
+}
+
+.float {
+    float: left;
+    width: 33%;
+    padding: 5px;
+
 }
